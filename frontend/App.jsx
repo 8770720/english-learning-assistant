@@ -8,7 +8,6 @@ export default function App() {
   const handleTopicChange = async (e) => {
     const selected = e.target.value;
     setTopic(selected);
-
     if (selected !== "") {
       const prompt = `Let's practice a conversation about "${selected}". Please speak simple English and correct me if I make mistakes.`;
 
