@@ -8,7 +8,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://english-learning-assistant-omega.vercel.app"],  # 你的前端網址
+    allow_origins=["https://english-learning-assistant-omega.vercel.app","https://www.google.com"],  # 你的前端網址
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
