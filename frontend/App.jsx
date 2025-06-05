@@ -24,7 +24,7 @@ export default function App() {
   };
 
   const sendMessage = async () => {
-    const res = await fetch("https://your-backend-url.onrender.com/chat", {
+    const res = await fetch("https://english-learning-assistant.onrender.com/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
