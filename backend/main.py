@@ -9,7 +9,7 @@ app = FastAPI()
 # 允許跨來源請求（讓前端能呼叫後端 API）
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://english-learning-assistant-omega.vercel.app/"],  # 如有需要可改為前端網址
+    allow_origins=["https://english-learning-assistant-omega.vercel.app"],  # 如有需要可改為前端網址
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
